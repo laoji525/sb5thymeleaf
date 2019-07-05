@@ -9,6 +9,7 @@ import java.util.Date;
 @Controller
 public class HelloController {
 
+
     @RequestMapping("/hello")
     public String hello(Model m){
         m.addAttribute("name", "thymeleaf");
